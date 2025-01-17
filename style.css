@@ -1,0 +1,1130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --hue-color: 0;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+
+/* ========== Header ========== */
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Images/header\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a button {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a button:hover {
+    cursor: pointer;
+}
+
+nav ul li a::after {
+    content: '';
+    height: 2px;
+    background: rgb(200, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+} 
+
+
+.header-text {
+    margin-top: 11%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.header-text h1 span {
+    color: rgb(200, 0, 0);
+    font-weight: 600;
+}
+
+.header-text p {    
+    margin: 30px 0 30px;
+    font-size: 25px;
+}
+
+.box-icons a i {
+    margin-top: 20px;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.box-icons a i:hover {
+    cursor: pointer;
+    color: rgb(200, 0, 0);
+    transform: scale(1.25);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+button {
+    margin-top: 25px;
+    font-size: 16px;
+    padding: 10px 12px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 2px solid rgb(200, 0, 0);
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(200, 0, 0);
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/header\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    width: 125px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a button {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a button:hover {
+    cursor: pointer;
+}
+
+nav ul li a::after {
+    content: '';
+    height: 2px;
+    background: rgb(200, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header-text {
+    margin-top: 11%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.header-text h1 span {
+    color: rgb(200, 0, 0);
+    font-weight: 600;
+}
+
+.header-text p {    
+    margin: 30px 0 30px;
+    font-size: 25px;
+}
+
+.box-icons a i {
+    margin-top: 20px;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.box-icons a i:hover {
+    cursor: pointer;
+    color: rgb(200, 0, 0);
+    transform: scale(1.25);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+button {
+    margin-top: 25px;
+    font-size: 16px;
+    padding: 10px 12px;
+    color: #fff;
+    background-color: rgb(200, 0, 0);
+    border-radius: 7px;
+    border: 2px solid rgb(200, 0, 0);
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:rgb(252, 252, 252);
+    color: rgb(200, 0, 0);
+}
+
+button>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button>a:hover{
+    color: rgb(200, 0, 0);
+}
+
+/*========== About Me ==========*/
+#about {
+    padding: 50px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    padding: 10px;
+    flex-basis: 25%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.75s all ease;
+}
+
+.about-col-1 img:hover {
+    cursor: pointer;
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+.about-col-2 {
+    flex-basis: 68%;
+    font-size: 16px;
+}
+
+.about-col-2>p {
+    text-align: justify;
+}
+
+.sub-title {
+    margin: 50px auto 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #080808;
+    text-underline-offset: 10px;
+    transition: 1s;
+}
+
+.sub-title:hover {
+    text-decoration-color: rgb(200, 0, 0);
+}
+
+.details {
+    margin: 25px 0 25px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.details div {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 0.75rem;
+    transition: 0.5s;
+}
+
+.details div:hover {
+    border: 2px solid rgb(200, 0, 0);
+    cursor: pointer;
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+.details div p {
+    font-size: 12px;
+}
+
+.tab-titles {
+    display: flex;
+    margin: 20px 0 30px;
+}
+
+.tab-links {
+    margin-right: 100px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: rgb(200, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+    width: 100%;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+.tab-contents ul li span {
+    color: rgb(200, 0, 0);
+    font-size: 16px;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+/* Style for Tech Stack text */
+.tech-stack {
+    font-weight: bold;
+    color: green; /* Set color to red */
+}
+
+
+/* ========== Skills ========== */
+.skill-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 60px;
+    margin-top: 50px;
+}
+
+.skill-list>div>div {
+    border-radius: 20px;
+    box-shadow: rgba(200, 0, 0, 0.5) 2px 2px;
+    transition: 0.5s;
+    padding-bottom: 25px;
+}
+
+.skill-list>div>div>div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill-list>div:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.skill-list h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.skill-list h2:hover {
+    color: rgb(200, 0, 0);
+    text-decoration: underline;
+}
+
+.skill-list div div {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.skill-list div div img {
+    width: 40%;
+    margin: 25px;
+    transition: 0.5s;
+}
+
+.skill-list div div img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+
+/* ========== My Project ========== */
+
+#projects{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: centre;
+}
+#projects h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center; /* Centers the heading */
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s;
+}
+
+/* Hover effect on the heading */
+#projects h1:hover {
+    color: rgb(200, 0, 0); /* Red color */
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.project-tech-stack {
+    font-weight: bold;
+    color: green; /* Set color to red */
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.work {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), black);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 12px;
+    transition: height 0.5s;
+}
+
+.layer h2 {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.layer p {
+    margin: 10px auto;
+    font-size: 12px;
+}
+
+.layer a {
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(200, 0, 0);
+    font-size: 18px;
+    line-height: 50px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin: 30px auto 0;
+    width: fit-content;
+    border: 2px solid rgb(200, 0, 0);
+    padding: 10px 40px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: rgb(200, 0, 0);
+}
+
+
+/* =======Certifications========*/
+
+
+.certification-card {
+    border: 1px solid #ddd; /* Subtle border for cleaner look */
+    padding: 15px; /* Add more padding for better spacing */
+    margin: 10px 0; /* Separate cards with more space */
+    border-radius: 10px; /* Slightly rounded corners */
+    background-color: black;
+    color: white; /* Clean white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: 10px;
+     /* Smooth hover effects */
+}
+
+/* Hover effect for cards */
+.certification-card:hover {
+    transform: translateY(-5px); /* Lift the card slightly */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+/* Certification title */
+.certification-title {
+    font-size: 1.2rem; /* Slightly larger font for emphasis */
+    font-weight: bold;
+    color: white; /* Neutral dark color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+/* Links in the card */
+.certification-link {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s; /* Smooth transition for hover effect */
+}
+
+/* Link hover effect */
+.certification-link:hover {
+    color: red; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+
+#certifications h1:hover {
+    color: rgb(200, 0, 0); /* Red color */
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* Increase size of certification headings */
+#certifications h1 {
+    font-size: 2rem; /* Increased size for main heading */
+    padding-left: 25px;
+    text-align: 10px;
+    
+}
+.certification-card .certification-title {
+    font-size: 1rem; /* Increased size for certification titles */
+    font-weight: bold;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== Contact ========== */
+
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 10%;
+    background-color: #1c1c1c;
+}
+
+#contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #e91e63;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#contact h1:hover {
+    color: #f50057;
+    text-decoration: underline;
+}
+
+/* Flexbox Layout */
+#contact > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Left Section Styling */
+.contact-left {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.contact-left h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #e91e63;
+    border-bottom: 2px solid #e91e63;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact-left p {
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+.contact-left p i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #e91e63;
+}
+
+.contact-left p i:hover {
+    color: #f50057;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+/* Social Icons */
+.box-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #e91e63;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.box-icons a:hover {
+    color: #f50057;
+    transform: scale(1.3);
+}
+
+/* Right Section Styling */
+.contact-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #aaa;
+}
+
+form button {
+    padding: 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #f50057;
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #aaa;
+    background-color: #262626;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #contact > div {
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-right {
+        margin: 0 auto;
+    }
+
+    .box-icons a {
+        margin-right: 10px;
+    }
+}
+
+
+
+/* ====== SCROLL BAR ====== */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: var(--scroll-bar-color);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--text-color-light);
+}
+
+/*============== Project section ==============*/
+.all-projects>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.project-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 25px;
+}
+
+.all-projects img{
+    width: 80%;
+}
+
+.img{
+    width: 80%;
+    height: 100%;
+}
+
+
+#contact>div{
+    display: flex;
+
+    width: 80%;
+    justify-content: space-evenly;
+    /* border: 5px solid red; */
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.input-box>input{
+    width: 80%;
+}
+
+.personal-info{
+    width: 40%;
+}
+
+.send-info{
+    width: 40%;
+}
+
+/* Project Section ended */
+
+nav .fa-solid {
+    display: none;
+}
+
+
+
+/* ========== For Mobiles ========== */
+@media only screen and (max-width: 540px) {
+    #header {
+        height: 90vh;
+        background-image: url(./assets/header\ 4.jpg);
+    }
+
+    .header-text {
+        margin-top: 60%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+    }
+
+    nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: rgb(200, 0, 0);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+        
+    }
+
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .sub-title {
+        font-size: 30px;
+    }
+
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+
+    .about-col-2 {
+        font-size: 14px;
+    }
+
+    .tab-links {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .layer h2 {
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .layer p {
+        margin: 10px auto;
+        font-size: 10px;
+    }
+
+    .layer a {
+        margin: 10px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: rgb(200, 0, 0);
+        font-size: 18px;
+        line-height: 50px;
+        background: #ababab;
+        width: 50px;
+        height: 50px;
+        border-radius: 15%;
+        text-align: center;
+    }
+
+    .contact-left h2 {
+        font-weight: 600;
+        text-decoration: underline;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-left p {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .contact-left p i {
+        color: #fff;
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+    #contact .box-icons a i {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-right: 15px;
+        color: #fff;
+    }
+    .l{
+        text-decoration: none;
+    }
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+}
+
+/* ========== For Tablets ========== */
+@media only screen and (min-width:541px) and (max-width: 1024px) {
+    #header {
+        height: 90vh;
+        background-image: url(./assets/header\ 4.jpg);
+    }
+
+    .header-text {
+        margin-top: 50%;
+        font-size: 18px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+
+    nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: rgb(200, 0, 0);
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .sub-title {
+        font-size: 30px;
+    }
+
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+
+    .contact-left h2 {
+        font-weight: 600;
+        text-decoration: underline;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contact-left p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .contact-left p i {
+        color: #fff;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    #contact .box-icons a i {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-right: 15px;
+        color: #fff;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+}
+/*============ MESSAGE REQUEST ==============*/
+
+.site-footer {
+    text-align: center;
+    padding: 20px 10px; /* Comfortable padding */
+    background-color: #222; /* Dark background */
+    color: #ddd; /* Light text color */
+    font-size: 0.9rem; /* Footer-specific font size */
+    margin-top: 20px; /* Separation from the rest of the page */
+    border-top: 2px solid #444; /* Subtle divider */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.site-footer a {
+    color: #4dabf7; /* Light blue for links */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px; /* Space between links */
+}
+
+.site-footer a:hover {
+    color: #1e90ff; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+.footer-content {
+    max-width: 1200px; /* Optional: Limit content width */
+    margin: 0 auto; /* Center align content */
+}

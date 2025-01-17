@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ADITYA KANT VERMA | Portfolio</title>
+	<link rel="stylesheet" href="./style.css">
+	<!-- <link rel="stylesheet" href="./calendar.css" /> -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v6.3.0/css/all.css">
+	<link rel="icon" href="./assets/titleimg.jpg" type="image/icon type">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+	<!-- ========== Header ========== -->
+	<div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/icon.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+					<li><a href="#certifications">Certifications</a></li>
+					<!-- Direct link to download resume -->
+                    <li><a href="./assets/ADITYA.pdf" id="resume-button-1" download>Resume</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+					
+                    <li><a href="#contact">Contact</a></li>
+					
+
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- home section -->
+            <div class="header-text" id="home">
+                <h1 id="user-detail-name">Hello, I'm<br><span>ADITYA KANT VERMA</span></h1>
+                <p><span class="auto-type"></span></p>
+                <div class="box-icons">
+                    <a href="https://github.com/Aditya62028" target="_blank" id="contact-github"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-kant-verma/"
+                       target="_blank" id="contact-linkedin"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+                <!-- Simplified Resume Download Button -->
+                <a href="./assets/ADITYA-CV.pdf" id="resume-link-2" class="nav-link resume" download>
+                    <button style="border: none;" id="resume-button-2">
+                        Download CV
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+	<!--========== About Me ==========-->
+	<div id="about" class="about section">
+		<div class="container">
+			<h1 class="sub-title">About Me</h1>
+			<div class="row">
+				<div class="about-col-1">
+					<img src="./assets/Aditya.jpg" alt="profile pic" class="home-img">
+				</div>
+				<div class="about-col-2" id="user-detail-intro">
+					<p> "I'm a passionate and driven Java FullStack Developer with a strong foundation in building dynamic, responsive, and user-friendly web applications. During my college days, I have done my Internship with "HCL Technologies" where I have created a Portal using languages like HTML/CSS, JavaScript. My technical expertise spans back-end technologies like C++, Java, JDBC, Servlets, JSP, Spring 5, Hibernate, and Spring Boot, alongside front-end technologies such as HTML, CSS, JavaScript, and React.js. I thrive on solving complex problems and continuously strive to enhance my skills in full-stack development. I am eager to contribute to an innovative organization where I can leverage my abilities, grow professionally, and deliver impactful solutions".
+					</p>
+					
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('education')">Education</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					</div>
+					
+					<div class="tab-contents active-tab" id="education">
+						<ul>
+							<li>
+								<span>Java Full Stack Development 🎓</span><br>
+								JSpiders, Bengaluru<br>
+								<em>May 2024 - Present</em>
+							</li>
+							<li>
+								<span>Bachelor of Engineering (CSE) 🎓</span><br>
+								Sathyabama Institute Of Science and Technology, Chennai<br>
+								<em>September 2020 - May 2024</em>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li>
+								<span>Project Intern 🎓</span><br>
+								HCL Technologies, Chennai<br>
+								<em>June 2022 - December 2022</em>
+							</li>
+							<li>
+								<span>Online CV Builder 🎓</span><br>
+								- Created a user-friendly web application enabling users to create professional resume easily.<br>
+								-  Implemented 8+ professional CV templates and customization options, resulting in 90% positive user feedback and a 60% increase in
+								user engagement. <br>
+								- Engineered a mobile-responsive UI using HTML/CSS and JavaScript that reduced page load time by 40% and improved cross-browser 
+								compatibility to 98%.<br>
+								<br>
+								<strong class="tech-stack">Tech Stack: </strong> HTML/CSS, JavaScript
+							</li>
+						</ul>
+					</div>					
+			</div>
+		</div>
+	</div>
+	<!-- ========== Skills ========== -->
+	<div id="skills">
+		<div class="container">
+			<h1 class="sub-title">Skills & Tools </span></h1>
+			<div class="skill-list">
+				<div>
+					<h2>Languages & Framework <i class="fa-solid fa-code"></i></h2>
+					<div class="skills-card">
+						<div>
+							<img src="./assets/java-programming-language-icon.png" alt="java" title="Java"
+								class="skills-card-img">
+							<p class="skills-card-name">Java</p>
+						</div>
+						
+                        <div>
+							<img src="./assets/spring1.png" alt="mysql" title="Spring" class="skills-card-img">
+							<p class="skills-card-name">Spring</p>
+						</div>
+
+						<div>
+							<img src="./assets/spring-boot.jpg" alt="mysql" title="SpringBoot" class="skills-card-img">
+							<p class="skills-card-name">SpringBoot</p>
+
+							
+						</div>
+
+						<div>
+							<img src="./assets/mysql-icon.png" alt="mysql" title="MySQL" class="skills-card-img">
+							<p class="skills-card-name">MySql</p>
+						</div>
+						<div>
+							<img src="./assets/html-icon.png" alt="html" title="HTML" class="skills-card-img">
+							<p class="skills-card-name">HTML</p>
+						</div>
+						<div>
+							<img src="./assets/css-icon.png" alt="css" title="CSS" class="skills-card-img">
+							<p class="skills-card-name">CSS</p>
+						</div>
+                        <div>
+							<img src="./assets/javascript-programming-language-icon.png" alt="javascript"
+								title="JavaScript" class="skills-card-img">
+							<p class="skills-card-name">JavaScript</p>
+						</div>
+
+						<div>
+							<img src="./assets/React.png" alt="React" title="React"
+								class="skills-card-img">
+							<p class="skills-card-name">React </p>
+						</div>
+
+						<div>
+							<img src="./assets/C++.png" alt="C++" title="C++"
+								class="skills-card-img">
+							<p class="skills-card-name">C++ </p>
+						</div>
+
+					</div>
+				</div>
+				<div>
+					<h2>Tech Tools <i class="fa-solid fa-code-branch"></i></h2>
+					<div>
+						<div>
+							<img src="./assets/github-icon.png" alt="github" title="GitHub"
+								class="skills-card-img">
+							<p class="skills-card-name">GitHub</p>
+						</div>
+
+						<div>
+							<img src="./assets/visual-studio-code-icon.png" alt="vscode" title="Visual Studio Code"
+								class="skills-card-img">
+							<p class="skills-card-name">VS Code</p>
+						</div>
+						<div>
+							<img src="./assets/eclipse-logo.png" alt="vscode" title="Visual Studio Code"
+								class="skills-card-img">
+							<p class="skills-card-name">Eclipse</p>
+						</div>
+						<div>
+							<img src="./assets/mysql_workbench.jpg.png" alt="vscode" title="Visual Studio Code"
+								class="skills-card-img">
+							<p class="skills-card-name">workbench</p>
+						</div>
+
+						<div>
+							<img src="./assets/postman-icon.png" alt="postman" title="Postman"
+								class="skills-card-img">
+							<p class="skills-card-name">Postman</p>
+						</div>
+
+						<div>
+							<img src="./assets/intelliJ.jpg" alt="intelliJ" title="intelliJ"
+								class="skills-card-img">
+							<p class="skills-card-name">intelliJ </p>
+						</div>
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- ========== My Projects ========== -->
+<section id="projects-sec">
+</section>
+<section id="projects">
+    <h1>Projects</h1>
+    <div class="all-projects">
+        <!-- Project 1 -->
+
+		<div class="project-card">
+            <div>
+                <img src="assets/OnlineCV.png" alt="" />
+            </div>
+            <div>
+                <h2 class="project-title">Online CV Builder</h2>
+                <a href="https://github.com/Aditya62028/ONLINE-CV-BUILDER" target="_blank" class="project-link">View Project</a>
+                <p class="project-description">- Created a user-friendly web application enabling users to create professional resume easily</p>
+                <p>- Implemented 8+ professional CV templates and customization options, resulting in 90% positive user feedback and a 60% increase in
+					user engagement.</p>
+                <p>- Engineered a mobile-responsive UI using HTML/CSS and JavaScript that reduced page load time by 40% and improved cross-browser 
+					compatibility to 98%.</p>
+                <h5 class="project-tech-stack">Tech Stack: HTML/CSS | JavaScript</h5>
+            </div>
+        </div>
+
+		<!-- Project 2-->
+        <div class="project-card">
+            <div>
+                <img src="assets/job-portal.jpg" alt="" />
+            </div>
+            <div>
+                <h2 class="project-title">JOB - PORTAL APPLICATION</h2>
+                <a href="https://github.com/Aditya62028/Job-Portal-Application" target="_blank" class="project-link">View Project</a>
+                <p class="project-description">- Developed a job portal with Java (JSP, Servlets) for users to sign up, log in, update profiles, and view listed jobs.</p>
+                <p>- Implemented admin features for posting jobs, viewing job listings, and managing job posts with secure login.</p>
+                <p>- Used JDBC for database interaction with MySQL and applied Bootstrap for responsive front-end design.</p>
+                <p>- Deployed the project using Eclipse, Maven, and Tomcat, with database management via PostgreSQL.</p>
+                <h5 class="project-tech-stack">Tech Stack: Java | JDBC | Servlet | JSP | PostgreSQL</h5>
+            </div>
+        </div>
+
+        
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div>
+                <img class="img" src="assets/Online-Certification.jpg" alt="" />
+            </div>
+            <div>
+                <h2 class="project-title">ONLINE CERTIFICATE MANAGEMENT SYSTEM</h2>
+                <a href="https://github.com/Aditya62028/Online-Certificate-Management-System" target="_blank" class="project-link">View Project</a>
+                <p class="project-description">- Developed a web application to manage certificate issuance and user roles using React and Spring Boot.</p>
+                <p>- Implemented MySQL for database management and JWT for secure authentication.</p>
+                <p>- Key features include state persistence, analytics dashboards, input validation, and exception handling.</p>
+                <h5 class="project-tech-stack">Tech Stack: Spring Boot | React | JWT | MySQL</h5>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+            <div>
+                <img src="assets/images.png" alt="" />
+            </div>
+            <div>
+                <h2 class="project-title">Criminal Identification System Using Photo Matching Across Distributed CCTV Surveillance Networks</h2>
+                <a href="https://github.com/Aditya62028/Criminal-Identification-System-Using-Photo-Matching-Across-Distributed-CCTV-Surveillance-Networks" target="_blank" class="project-link">View Project</a>
+                <p class="project-description">- Developed a robust photo matching system for criminal identification utilizing a distributed CCTV surveillance network.</p>
+                <p>- Created and deployed a web-based interface for monitoring and analysis, allowing law enforcement to upload images and receive instant matches from the networked cameras.</p>
+                <h5 class="project-tech-stack">Tech Stack: Python | OpenCV | Flask | Streamlit | Haar-Cascade | LBPBH</h5>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+            <div>
+                <img src="assets/diabetes.jpg" alt="" />
+            </div>
+            <div>
+                <h2 class="project-title">Diabetes Prediction Using Machine Learning</h2>
+                <a href="https://github.com/Aditya62028/Diabetic-Prediction-System" target="_blank" class="project-link">View Project</a>
+                <p class="project-description">- Developed a robust machine learning model for accurate diabetes prediction based on the given dataset.</p>
+                <p>- Conducted a comparative study using Decision Tree, Random Forest, and K-Neighbors models for diabetes prediction based on patient features.</p>
+                <h5 class="project-tech-stack">Tech Stack: Python (Flask) | API | HTML/CSS</h5>
+            </div>
+
+        </div>
+
+		<!-- Project 5 -->
+        <div class="project-card">
+            <div>
+                <img src="assets/Cereal Analysis.png" alt="" />
+            </div>
+            <div>
+                <h2 class="project-title">Cereal-Analysis-Based-on-Machine-Learning</h2>
+                <a href="https://github.com/Aditya62028/Cereal-Analysis-Based-on-Machine-Learning" target="_blank" class="project-link">View Project</a>
+                <p class="project-description">- Used machine learning algorithms to predictthe food with a high beneficiary diet. </p>
+                <p>-  Model canpredict the rating of the food more accurately by giving the inputs which are the cereals and ingredients present in
+					the food. </p>
+                <h5 class="project-tech-stack">Tech Stack: : Anaconda | Jupiter Notebook | Machine Learning Algorithms. </h5>
+            </div>
+			
+        </div>
+    </div>
+</section>
+<br />
+
+
+<!-- ========== Certifications Section ========== -->
+<section id="certifications">
+    <h1>Certifications</h1>
+    <div class="all-certifications">
+        <div class="certification-card">
+            <h2 class="certification-title">Certification of participation in cloud bootcamp by GFG</h2>
+            <a href="https://drive.google.com/file/d/1E68anWYIJHi7nlapOzrQVerFiQZh-zf3/view" target="_blank" class="certification-link">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <h2 class="certification-title">Certificate of completion inAdvanced C++ by SkillUP</h2>
+            <a href="https://drive.google.com/file/d/1PXC9lU_0BOpmzsCdgyI9WJ_SqGnaV0CQ/view" target="_blank" class="certification-link">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <h2 class="certification-title">Certificate of Achievement in Presentation Skills by TCS</h2>
+            <a href="https://drive.google.com/file/d/1PPNfr1p-G7wDjN-LY3Se_pLrC8_x5AyA/view" target="_blank" class="certification-link">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <h2 class="certification-title">45 hours professional training onArtificial Intelligence by Cognibot Labs</h2>
+            <a href="https://drive.google.com/file/d/1PIUhBs0UilTQRLwNT3ANT-hjzpI5VBH4/view" target="_blank" class="certification-link">View Certificate</a>
+        </div>
+
+    </div>
+</section>
+
+
+	<!-- ========== Contact ========== -->
+	<section id="contact">
+		<div>
+			<h1>Contact Me</h1>
+		</div>
+		<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+			<!-- Contact Left -->
+			<div class="contact-left">
+				<h2>Get in Touch</h2>
+				<p><i class="fas fa-envelope"></i> vermaaditya8271@gmail.com</p>
+				<p><i class="fas fa-phone"></i> +91-6202872524</p>
+				<p><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India, 560103</p>
+				<div class="box-icons">
+					<a href="https://github.com/Aditya62028"><i class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/aditya-kant-verma/"><i class="fab fa-linkedin"></i></a>
+					<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+					<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+				</div>
+			</div>
+			<!-- Contact Right -->
+			<div class="contact-right">
+				<form id="contactForm">
+					<input type="text" id="name" name="name" placeholder="Your Name" required>
+					<input type="email" id="email" name="email" placeholder="Your Email" required>
+					<textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+					<button type="submit">Send Message</button>
+				</form>
+				<p id="statusMessage" style="margin-top: 10px;"></p> <!-- Status message element -->
+			</div>
+		</div>
+	</section>
+
+	<!-- ==================== AUTO-TYPE SCRIPT ==================== -->
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<script>
+    // Auto-Type Effect
+    const typed = new Typed(".auto-type", {
+        strings: ["An independent and self-motivated hardworking individual dedicated towards goals."],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true, // Keeps the typing animation looping
+    });
+</script>
+
+<!-- EmailJS Script -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript"></script>
+
+<!-- Main Application Script -->
+<script src="./app.js"></script>
+
+
+
+<!-- ========== Footer Section ========== -->
+<footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2025 Aditya Kant Verma. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
